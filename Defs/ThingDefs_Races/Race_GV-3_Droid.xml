@@ -38,6 +38,8 @@
     <PawnKindDef Name="Base GV/3 Droid kind" Abstract="True">
         <aiAvoidCover>false</aiAvoidCover>
         <destroyGearOnDrop>false</destroyGearOnDrop>
+  	    <minGenerationAge>0</minGenerationAge>
+	    <maxGenerationAge>1000</maxGenerationAge>
     </PawnKindDef>
 
     <ThingDef ParentName="Base GV/3 Droid">

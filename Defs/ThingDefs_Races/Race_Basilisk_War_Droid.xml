@@ -38,6 +38,8 @@
     <PawnKindDef Name="Base Basilisk War Droid kind" Abstract="True">
         <aiAvoidCover>false</aiAvoidCover>
         <destroyGearOnDrop>false</destroyGearOnDrop>
+  	    <minGenerationAge>0</minGenerationAge>
+	    <maxGenerationAge>1000</maxGenerationAge>
     </PawnKindDef>
 
     <ThingDef ParentName="Base Basilisk War Droid">
